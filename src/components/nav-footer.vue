@@ -28,13 +28,9 @@
 </template>
 
 <script>
-import uploader from './uploader'
 
 export default {
-  name: 'nav-footer',
-  components: {
-    uploader
-  }
+  name: 'nav-footer'
 }
 </script>
 

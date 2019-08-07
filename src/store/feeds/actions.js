@@ -14,9 +14,9 @@ const actions = {
     commit('addFeed', res.data)
     commit('setLoading', false)
   },
-  async delFeed({ commit }, id) {
+  delFeed({ commit }, id) {
     commit('setLoading', true)
-    const res = await axios.delete('https://jsonplaceholder.typicode.com/photos/' + id)
+    // const res = await axios.delete('https://jsonplaceholder.typicode.com/photos/' + id)
     commit('delFeed', id)
     commit('setLoading', false)
   },

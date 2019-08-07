@@ -2,7 +2,7 @@
   <div v-if="commentList.length" class="comment">
     <p>Comments</p>
     <ul>
-      <li v-for="comment in commentList">
+      <li v-for="comment in commentList" :key="comment">
         {{ comment }}
       </li>
     </ul>

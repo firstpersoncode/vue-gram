@@ -31,7 +31,7 @@ export default {
   top: 0; left: 0; bottom: 0; right: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   background: #FFF;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
